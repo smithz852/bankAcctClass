@@ -1,0 +1,15 @@
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\bin\Debug\net9.0\bankAcctClass.exe
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\bin\Debug\net9.0\bankAcctClass.deps.json
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\bin\Debug\net9.0\bankAcctClass.runtimeconfig.json
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\bin\Debug\net9.0\bankAcctClass.dll
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\bin\Debug\net9.0\bankAcctClass.pdb
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\obj\Debug\net9.0\bankAcctClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\obj\Debug\net9.0\bankAcctClass.AssemblyInfoInputs.cache
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\obj\Debug\net9.0\bankAcctClass.AssemblyInfo.cs
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\obj\Debug\net9.0\bankAcctClass.csproj.CoreCompileInputs.cache
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\obj\Debug\net9.0\bankAcctClass.sourcelink.json
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\obj\Debug\net9.0\bankAcctClass.dll
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\obj\Debug\net9.0\refint\bankAcctClass.dll
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\obj\Debug\net9.0\bankAcctClass.pdb
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\obj\Debug\net9.0\bankAcctClass.genruntimeconfig.cache
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bankAcctClass\obj\Debug\net9.0\ref\bankAcctClass.dll
