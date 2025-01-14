@@ -1,4 +1,5 @@
-﻿
+﻿using Spectre.Console;
+
 public class BankAccount
 {
 		private decimal _balance;
@@ -73,12 +74,17 @@ public class BankAccount
 		// // TODO: Add any extra properties & methods you wish to use
 }
 
+
 class Program 
 {
   static void Main(string[] args) 
   {
     var account = new BankAccount();
-    account.Deposit(100);
-		account.Withdraw(150);
+
+ var amountToDeposit = AnsiConsole.Prompt(
+	new TextPrompt<int>("[mediumspringgreen]How much would you like to deposit?[/]"));
+
+    account.Deposit(amountToDeposit);
+		account.Withdraw(15);
   }
 }

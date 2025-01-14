@@ -28,3 +28,10 @@ C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bin\Debug\net9.0\bankAcctC
 C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bin\Debug\net9.0\bankAcctClass.pdb
 C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\obj\Debug\net9.0\bankAcctClass.genruntimeconfig.cache
 C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\obj\Debug\net9.0\ref\bankAcctClass.dll
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\obj\Debug\net9.0\bankAcctClass.csproj.AssemblyReference.cache
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bin\Debug\net9.0\Spectre.Console.dll
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bin\Debug\net9.0\Spectre.Console.Cli.dll
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bin\Debug\net9.0\de\Spectre.Console.Cli.resources.dll
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bin\Debug\net9.0\fr\Spectre.Console.Cli.resources.dll
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\bin\Debug\net9.0\sv\Spectre.Console.Cli.resources.dll
+C:\Users\surff\Documents\zachs-repos\C#\bankAcctClass\obj\Debug\net9.0\bankAcct.31EEACC4.Up2Date
