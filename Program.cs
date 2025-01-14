@@ -17,10 +17,12 @@ public class BankAccount
 			}
       else
       {
-        var depositTotal = _balance + amountToDeposit;
-        Console.WriteLine($"successfully deposited: ${depositTotal}");
-				var currentBalance = _balance;
-       Console.WriteLine($"Current balance: ${currentBalance}");
+        _balance += amountToDeposit;
+	
+        Console.WriteLine($"successfully deposited: ${amountToDeposit}");
+				ViewBalance();
+				// var currentBalance = _balance;
+      //  Console.WriteLine($"Current balance: ${currentBalance}");
 				return true;
 			}
 
@@ -33,6 +35,9 @@ public class BankAccount
 			{
 				_balance -= amountToWithdraw;
 				Console.WriteLine($"successfully withdrew: ${amountToWithdraw}");
+				ViewBalance();
+				// var currentBalance = _balance;
+				// Console.WriteLine($"Current balance: ${currentBalance}");
 				return true;
 			} 
 			else
@@ -43,9 +48,10 @@ public class BankAccount
 		}
 		
 		// // TODO: See balance
-		// public decimal ViewBalance(){
-			
-		// }
+		public decimal ViewBalance(){
+			Console.WriteLine($"Current balance: ${_balance}");
+			return _balance;
+		}
 		
 		// // TODO: Write method to determine if bank account is overdrawn
 		// public bool IsOverdrawn(){
