@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\surff\\Documents\\zachs-repos\\C#\\bankAcctClass\\bankAcctClass\\bankAcctClass.csproj",
+      "projectUniqueName": "C:\\Users\\surff\\Documents\\zachs-repos\\C#\\bankAcctClass\\bankAcctClass.csproj",
       "projectName": "bankAcctClass",
-      "projectPath": "C:\\Users\\surff\\Documents\\zachs-repos\\C#\\bankAcctClass\\bankAcctClass\\bankAcctClass.csproj",
+      "projectPath": "C:\\Users\\surff\\Documents\\zachs-repos\\C#\\bankAcctClass\\bankAcctClass.csproj",
       "packagesPath": "C:\\Users\\surff\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\surff\\Documents\\zachs-repos\\C#\\bankAcctClass\\bankAcctClass\\obj\\",
+      "outputPath": "C:\\Users\\surff\\Documents\\zachs-repos\\C#\\bankAcctClass\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\surff\\AppData\\Roaming\\NuGet\\NuGet.Config"

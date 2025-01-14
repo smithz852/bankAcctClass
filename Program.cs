@@ -12,21 +12,35 @@ public class BankAccount
 		public bool Deposit(decimal amountToDeposit){
 			if (amountToDeposit <= 0)
       {
-        Console.WriteLine("You cannot deposit a negative amount.");
+        Console.WriteLine("Can't deposit $0 or less");
 				return false;
 			}
       else
       {
         var depositTotal = _balance + amountToDeposit;
-        Console.WriteLine(depositTotal);
+        Console.WriteLine($"successfully deposited: ${depositTotal}");
+				var currentBalance = _balance;
+       Console.WriteLine($"Current balance: ${currentBalance}");
 				return true;
 			}
+
+      
 		}
 		
 		// TODO: Remove from balance, add verifications, and return if withdrawal was successful
-		// public bool Withdraw(decimal amountToWithdraw){
-			
-		// }
+		public bool Withdraw(decimal amountToWithdraw){
+			if (_balance >= amountToWithdraw && amountToWithdraw > 0)
+			{
+				_balance -= amountToWithdraw;
+				Console.WriteLine($"successfully withdrew: ${amountToWithdraw}");
+				return true;
+			} 
+			else
+			{
+				Console.WriteLine("Insufficient funds");
+				return false;
+			}
+		}
 		
 		// // TODO: See balance
 		// public decimal ViewBalance(){
@@ -52,5 +66,6 @@ class Program
   {
     var account = new BankAccount();
     account.Deposit(100);
+		account.Withdraw(25);
   }
 }
