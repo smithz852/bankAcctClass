@@ -3,10 +3,12 @@
 public class BankAccount
 {
 		private decimal _balance;
+		public string AccountOwner { get; set; }
 		
 		// TODO: Change this as desired
 		public BankAccount(){
 			_balance = 0;
+			AccountOwner = "John Doe";
 		}
 		
 		// TODO: Add to balance, add verifications, and return if deposit was successful
@@ -67,9 +69,17 @@ public class BankAccount
 		}
 		
 		// // TODO: Return the name of the account owner
-		// public string GetAccountOwner(){
+		public string GetAccountOwner(){
 			
-		// }
+			AnsiConsole.Write(new Markup($"Welcome to your bank account, [mediumspringgreen]{AccountOwner}[/] \n"));
+
+			var amountToDeposit = AnsiConsole.Prompt(
+	new TextPrompt<int>("[mediumspringgreen]How much would you like to deposit?[/]"));
+
+    Deposit(amountToDeposit);
+
+			return AccountOwner;
+		}
 		
 		// // TODO: Add any extra properties & methods you wish to use
 }
@@ -80,11 +90,9 @@ class Program
   static void Main(string[] args) 
   {
     var account = new BankAccount();
-
- var amountToDeposit = AnsiConsole.Prompt(
-	new TextPrompt<int>("[mediumspringgreen]How much would you like to deposit?[/]"));
-
-    account.Deposit(amountToDeposit);
+  
+	account.GetAccountOwner();
+ 
 		account.Withdraw(15);
   }
 }
